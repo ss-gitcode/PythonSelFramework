@@ -4,7 +4,10 @@ from pageObjects.CheckoutPage import CheckOutPage
 
 
 class HomePage:
+    '''
+        POM  => Page object model
 
+    '''
     def __init__(self, driver):
         self.driver = driver
 
